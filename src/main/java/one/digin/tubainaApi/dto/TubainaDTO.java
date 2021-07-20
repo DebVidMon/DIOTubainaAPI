@@ -22,7 +22,8 @@ public class TubainaDTO {
     private String brand;
 
     @NotNull
-    private Double price;
+    @Max(500)
+    private Integer max;
 
     @NotNull
     @Max(100)
