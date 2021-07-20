@@ -23,7 +23,7 @@ public class Tubaina {
     private String brand;
 
     @Column(nullable = false)
-    private double price;
+    private int max;
 
     @Column(nullable = false)
     private int quantity;
